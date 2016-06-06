@@ -42,7 +42,7 @@
         <!--Result View Controller-->
         <scene sceneID="8mg-ow-VOk">
             <objects>
-                <viewController id="iXT-ec-uqb" customClass="ResultViewController" sceneMemberID="viewController">
+                <viewController id="iXT-ec-uqb" customClass="ResultViewController" customModule="GachaTech" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9nr-kH-Ec1"/>
                         <viewControllerLayoutGuide type="bottom" id="ajc-1r-1XU"/>

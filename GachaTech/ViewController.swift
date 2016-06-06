@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     
     @IBAction func gacha() {
         
-        self.performSegueWithIdentifier("result", sender: nil)
+        self.performSegueWithIdentifier("result",sender: nil)
         
     }
 
