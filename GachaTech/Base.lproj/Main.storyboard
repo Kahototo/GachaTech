@@ -54,20 +54,24 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="h8F-gu-EQq">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="monster001.png" translatesAutoresizingMaskIntoConstraints="NO" id="vLY-YH-u1Y">
-                                <rect key="frame" x="89" y="191" width="240" height="239"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEr-dY-0B5">
-                                <rect key="frame" x="0.0" y="6" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="modoru" destination="iXT-ec-uqb" eventType="touchUpInside" id="H9z-BU-Rdu"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="monster001.png" translatesAutoresizingMaskIntoConstraints="NO" id="vLY-YH-u1Y">
+                                <rect key="frame" x="89" y="191" width="240" height="239"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="haikeiImageView" destination="h8F-gu-EQq" id="oc0-1w-Fw1"/>
+                        <outlet property="monsterImageView" destination="vLY-YH-u1Y" id="bfP-hv-D43"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P8a-hq-fhl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
